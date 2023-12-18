@@ -12,7 +12,7 @@ public class AplikasiTodoList {
         System.out.println("TODOLIST ABSENSI MATA KULIAH PEMOGRAMAN BERORIENTASI OBJEK");
         System.out.println("-------------------");
         for (var i = 0; i < model.length; i++) {
-            String todo = model[i];
+            var todo = model[i];
             var no = i + 1;
 
             if (todo != null) {
